@@ -4,6 +4,7 @@
  */
 package tools;
 
+import java.time.Instant;
 import java.util.Date;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -59,18 +60,17 @@ public class Util {
         return String.valueOf(num);
     }
     public static double strToDouble(String num) {
-        //tem q terminar
-        return 0;
+        return Double.parseDouble(num);
     }
     public static String doubleToStr(double num) {
-        //tem q terminar
-        return "";
+        return String.valueOf(num);
     }
     public static Date strToDate(String data) {
         //tem q terminar
         return null;
+        //return Date.from(jFmtDataDeNascimento);
     }
-    public static String dateToString(Date data) {
+    public static String dateToStr(Date data) {
         //tem q terminar
         return "";
     }
